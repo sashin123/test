@@ -12,5 +12,15 @@ public class testController {
 	public String hello() {
 		return "hello";
 	}
+	
+	@GetMapping("/about")
+	public String about() {
+		return "{my name is bangledore maybe im from scarnish but maybe not maybe im from burgush, or sumn maybe naybe haybe saybe}";
+	}
+	
+	@GetMapping("/tinder")
+	public String tinder() {
+		return "meet the love of your life buddy muffin";
+	}
 
 }
